@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evalucion Inicial</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gimnasio del barrio 24/7">
+    <title>inicio</title>
+</head>
+<body>
+    <!--============================= INICIO DEL HEADER========================-->
+    <header>
+        <nav>
+            <div>
+                <div>
+                    💪
+                </div>
+                <p>FitBarrio 24/7</p>
+            </div>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Planes y precios</a></li>
+                <li><a href="">Rutina semana</a></li>
+                <li><a href="">Entrenadores</a></li>
+                <li><a href="">Evaluación inicial</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+
+            <div>
+                <p>Abierto ahora · 24 h</p>
+            </div>
+            <div>
+                <p>Agendar evaluación</p>
+            </div>
+        </nav>
+    </header>
+    <!--============================= FIN DEL HEADER ========================-->
+
+    <!--============================= INICIO DEL MAIN ==================-->
+    <main>
+        <!--============================= SECTION EN CABESADO ==================-->
+        <section>
+            <P>EVALUACIÓN INICIAL</P>
+            <P>Tu primera visita, gratis y con un entrenador</P>
+            <P>Completa el formulario y te confirmamos por WhatsApp. Dura 30 minutos y no te compromete a inscribirte.</P>
+        </section>
+        <!--============================= SECTION DE FORMUARIO  ==================-->
+        <section>
+            <form action="">
+                <!--INFORMACION PERSONAL-->
+                <div class="input-infopersonal">
+                    <div>
+                        <label for="fullname">Nombre completo</label>
+                        <input type="text" id="fullname" name="fullname" autocomplete="name" placeholder="Ej: María Pérez">
+                    </div>
+
+                    <div>
+                        <label for="age">Edad</label>
+                        <input type="number" id="age" name="age" placeholder="Ej: 27">
+                    </div>
+
+                    <div>
+                        <label for="whatsApp">WhatsApp</label>
+                        <input type="tel" id="whatsApp" name="whatsApp" autocomplete="tel" placeholder="(809) 000-0000">
+                    </div>
+
+                    <div>
+                        <label for="plan">Plan que te interesa</label>
+                        <select name="plan" id="plan">
+                            <option value="basico">Básico</option>
+                            <option value="full">Full</option>
+                            <option value="primiun">Premiun</option>
+                        </select>
+                    </div>
+                </div>
+                <!--OBJETIVO-->
+                <div class="objetivo">
+                    <label class="option-objetivo">
+                        <input type="text" name="objetivo" value="bajar_de_peso">
+                        <span>Bajar de peso</span>
+                    </label>
+
+                    <label class="option-objetivo">
+                        <input type="text" name="objetivo" value="ganar_musculo">
+                        <span>Ganar músculo</span>
+                    </label>
+
+                    <label class="option-objetivo">
+                        <input type="text" name="objetivo" value="salud_y_energia">
+                        <span>Salud y energía</span>
+                    </label>
+
+                    <label class="option-objetivo">
+                        <input type="text" name="objetivo" value="rendimiento_deportivo">
+                        <span>Rendimiento deportivo</span>
+                    </label>
+                </div>
+                <!--EXPERIENCIA-->
+                <div class="experiencia">
+                    <label class="option-experiencia">
+                        <input type="text" name="experiencia" value="nunca_he_entrenado">
+                        <span>Nunca he entrenado</span>
+                    </label>
+
+                    <label class="option-experiencia">
+                        <input type="text" name="experiencia" value="menos_de_un_years">
+                        <span>Menos de 1 año</span>
+                    </label>
+
+                    <label class="option-experiencia">
+                        <input type="text" name="experiencia" value="mas_de_un_years">
+                        <span>Más de 1 año</span>
+                    </label>
+                </div>
+                <!--DIA PREFERIDO-->
+                <div>
+                    <label for="dia-preferido">Día preferido</label>
+                    <select name="" id="">
+                        <option value="lunes">Lunes</option>
+                        <option value="martes">Martes</option>
+                        <option value="miercoles">Miercoles</option>
+                        <option value="jueves">Jueves</option>
+                        <option value="viernes">Viernes</option>
+                        <option value="sabado">Sabado</option>
+                        <option value="domingo">Domingo</option>
+                    </select>
+                </div>
+                <!--HORARIO PREFERIDO-->
+                <div class="hora-preferido">
+                    <label for="horapreferido">Hora preferida</label>
+                    <input type="time" id="horapreferido" name="horapreferido">
+                </div>
+                <!--CONDICION MEDICA-->
+                <div>
+                    <label for="condicionmedica"></label>
+                    <textarea name="condicionmedica" id="condicionmedica" placeholder="Ej: dolor de rodilla, hipertensión controlada…"></textarea>
+                </div>
+                <!--BOTON DE ENVIAR-->
+                <div>
+                    <button>Agendar mi evaluación gratis</button>
+                </div>
+                <p>Te confirmamos por WhatsApp en menos de 1 hora.</p>
+            </form>
+        </section>
+        <!--============================= SECTION EN INFORMACION  ==================-->
+        <section>
+            <div>
+                <p>Qué incluye</p>
+                <div>
+                    <img src="../public/recursos/icon/check-svgrepo-com.png" alt="Check" width="20px">
+                    <p>Peso, porcentaje de grasa y medidas</p>
+                </div>
+                <div>
+                    <img src="../public/recursos/icon/check-svgrepo-com.png" alt="Check" width="20px">
+                    <p>Prueba de resistencia y movilidad</p>
+                </div>
+                <div>
+                    <img src="../public/recursos/icon/check-svgrepo-com.png" alt="Check" width="20px">
+                    <p>Conversación sobre tu objetivo</p>
+                </div>
+                <div>
+                    <img src="../public/recursos/icon/check-svgrepo-com.png" alt="Check" width="20px">
+                    <p>Tu primera rutina, lista para usar</p>
+                </div>
+                <div>
+                    <img src="../public/recursos/icon/check-svgrepo-com.png" alt="Check" width="20px">
+                    <p>Recomendación del plan que te conviene</p>
+                </div>
+            </div>
+            <div>
+                <div>💬</div>
+                <p>¿Prefieres escribir? <br><span>Agenda por WhatsApp al (809) 555-0124.</span></p>
+            </div>
+            <div>
+                <div>🕐</div>
+                <p>Horarios de evaluación <br><span>Todos los días de 6 a. m. a 10 p. m.</span></p>
+            </div>
+        </section>
+    </main>
+    <!--============================= FIN MAIN========================-->
+
+    <!--============================= INICIO DEL FOOTER ========================-->
+    <footer>
+        <P>FitBarrio 24/7 · Calle Principal #24, Barrio Centro</P>
+        <P>Abierto 24 horas · Recepción 6 a. m. – 10 p. m.</P>
+        <P>(809) 555-0124 · WhatsApp · @fitbarrio247</P>
+    </footer>
+    <!--============================= FIN FOOTER ========================-->
+
+</body>
+</html>
+</body>
+</html>
